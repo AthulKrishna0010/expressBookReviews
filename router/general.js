@@ -121,5 +121,10 @@ public_users.get('/review/:isbn',function (req, res) {
 
 });
 
+public_users.delete("/auth/review/:isbn", (req, res) => {
+  
+  res.send("Yet to be implemented");
+});
+
 
 module.exports.general = public_users;

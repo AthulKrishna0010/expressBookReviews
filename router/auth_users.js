@@ -62,9 +62,7 @@ regd_users.put("/auth/review/:isbn", (req, res) => {
   }
 });
 
-regd_users.delete("/auth/review/:isbn", (req, res) => {
-    res.send("Yet to be implemented");
-});
+
 
 
 
